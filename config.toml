@@ -90,7 +90,7 @@ privacy_policy = "/privacy"
 #live_link = ""
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["/images/website card-2025.jpg"]
+images = ["/images/website-card-2025.jpg"]
 #start_date = "2023-12-12T09:00-05:00"
 #end_date = "2023-12-14T17:00-05:00" 
 
