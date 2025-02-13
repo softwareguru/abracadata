@@ -1,0 +1,22 @@
+.event-info-title{
+	margin-top: -20px;
+  }
+  .info-description{
+	margin-top: 30px;
+
+  }
+
+  .button-hero-blue{
+    background-color: $primary-color;
+    color: white;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 1.3rem;
+
+    &:hover{
+      background-color: $secondary-color;
+      color: $primary-color;
+    }
+
+  }

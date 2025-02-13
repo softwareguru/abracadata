@@ -1,0 +1,78 @@
+  <meta charset="utf-8">
+  <title>{{ .Title }}{{ if not .IsHome }} | {{ .Site.Title }}{{ end }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
+  {{ if .Params.noindex }}
+  <meta name="robots" content="noindex" /> 
+  {{ end }}
+  {{ hugo.Generator }}
+
+  {{- template "_internal/opengraph.html" . -}}
+  {{- template "_internal/twitter_cards.html" . -}}
+
+  {{ with .Site.Params.google_analytics }}
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{.}}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{.}}');
+  </script>
+  {{ end }}
+
+  {{ "<!-- plugins -->" | safeHTML }}
+  {{ range .Site.Params.plugins.css }}
+  <link rel="stylesheet" href="{{ .link | relURL }}">
+  {{ end }}
+
+  {{ "<!-- Main Stylesheet -->" | safeHTML }}
+  {{ $styles := resources.Get "scss/style.scss" | toCSS | minify }}
+  <link rel="stylesheet" href='{{ $styles.Permalink | relURL }}?v={{ now.Format "200601021504" }}' media="screen">
+
+  {{ "<!--Favicon-->" | safeHTML }}
+  <link rel="icon" href="{{ `favicon.svg` | relURL }}">
+  <link rel="mask-icon" href="{{ `favicon.svg` | relURL }}" color="#189dcf">
+
+  {{ if .IsHome }}    
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Event",
+      "name": "{{ .Site.Title }}",
+      "startDate": "{{ .Site.Params.start_date }}",
+      "endDate": "{{ .Site.Params.end_date }}",
+      "eventStatus": "https://schema.org/EventScheduled",
+      "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+      "location": {
+        "@type": "VirtualLocation",
+        "url": {{ .Site.BaseURL }}
+      },
+      "image": [ {{ index .Site.Params.images 0 | absURL }} ],
+      "description": "{{ .Site.Params.description }}",
+      "offers": {
+        "@type": "Offer",
+        "url": {{ with .Site.Params.navigation_button.link }}{{ . | absURL }}{{ end }},
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "validFrom": "2023-10-01T12:00"
+      },
+      "performer": {
+        "@type": "PerformingGroup",
+        "name": "Abracadata"
+      },
+      "organizer": {
+        "@type": "Organization",
+        "name": "Software Guru",
+        "url": "https://devrel.sg.com.mx"
+      }
+    }
+  </script>
+{{ end }}
+

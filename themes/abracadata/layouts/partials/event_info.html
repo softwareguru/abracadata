@@ -1,0 +1,29 @@
+{{ $data := index .Site.Data }}
+
+{{ with $data.homepage.event_info }}
+<section class="section event-info">
+  <a id="event-info"></a>
+  <div class="container">
+    <h2 class="text-center event-info-title"><img src="/images/star.png" width="25"> {{ .title }}</h2>
+    <div class="content info-description">
+
+      <div>
+        <p>{{ .description1 }}</p>
+        <p>{{ .description2 }}</p>
+        <a href="{{ .cta_link }}"> 
+            <button type="button" class="btn button-hero-blue mt-2" >{{ .cta_text }}</button>
+        </a>
+      </div>
+
+      <div class="statistics-block">
+        {{ range .features }}
+          <div class="item">
+            
+            <div class="numbers"><img src="/images/star.png" width="25"> {{ .number }}</div>
+          </div>
+        {{ end }}
+      </div>
+    </div>    
+  </div>
+</section>
+{{ end }}

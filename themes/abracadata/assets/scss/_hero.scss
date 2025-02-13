@@ -1,0 +1,28 @@
+.hero-section{
+  background-color: $primary-color;
+  height: 100vh;
+}
+
+.abracadata-logo{
+  padding-top: 128px;
+  width: 790px;
+}
+
+.hero-info{
+  color: $orange;
+  font-size: 1.7rem;
+  margin-top: 50px;
+}
+
+.button-hero{
+  background-color: $secondary-color !important;
+  color: $primary-color;
+  border-radius: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 1.3rem;
+
+  &:hover{
+    color: white;
+  }
+}

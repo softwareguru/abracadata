@@ -1,0 +1,16 @@
+############################## Event ##############################
+event_info:
+  enable : true
+  title : "BE PART OF THE MAGIC THAT BRINGS AI TO LIFE"
+  description1 : "Artificial intelligence is revolutionizing the world, and data is its driving force. Every AI solution is only as powerful as the data behind it."
+  description2: "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
+  cta_text: "REGISTER NOW!"
+  cta_link: "/register"
+  features: 
+    - number : "2 Days"
+
+    - number : "Free & Online"
+
+    - number : "# of Sessions"
+
+    - number : "Global Audience"

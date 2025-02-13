@@ -1,0 +1,26 @@
+<section id="partners" class="section partners">
+  <div class="sponsors-section text-center">
+    <h2>SPONSORS & PARTNERS</h2>
+  </div>
+  <div class="container">
+
+    {{ $category_exists := 0 }}
+    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "collaborators" }}
+    {{ if eq $index 0 }}
+    <div id="collaborators" class="mb-4">
+      <div class="sponsor-strip community">
+        {{ end }}
+        <div class="sponsor-item">
+          <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
+            <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
+          </a>
+        </div>
+        {{ end }}
+        {{ if eq $category_exists 1 }}
+      </div>
+    </div>
+    {{ end }}
+
+    <hr class="section-divider" />
+  </div>
+</section>

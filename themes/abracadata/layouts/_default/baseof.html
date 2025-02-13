@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+	{{- partial "head.html" . -}}
+	{{- block "headextra" . }}{{- end }}        
+</head>
+
+
+<body class="{{ if .IsHome }}home{{ else }}interior{{ end }}">
+	{{- partial "header.html" . -}}
+	{{ if not .IsHome }}
+	{{ partial "page-title.html" . }}
+	{{ end }}
+	{{- block "main" . }}{{- end }}
+	{{- partial "footer.html" . -}}
+</body>
+
+<script>
+    document.querySelectorAll('.localtimelabel').forEach(element => {
+        var value = element.innerText || element.textContent;
+        utcDate = new Date(value);
+        hours = utcDate.getHours();
+        minutes = utcDate.getMinutes();
+        if (minutes <10) {
+            minutes = "0"+minutes;
+        }
+        if(isNaN(hours)) {
+            element.innerHTML = "unknown";
+            return;
+        }
+        tmpString = hours+":"+minutes;
+        if (hours < 6) {
+            tmpString = tmpString+" (+1 day)";
+        }
+        element.innerHTML = tmpString;
+    });
+</script>
+
+</html>

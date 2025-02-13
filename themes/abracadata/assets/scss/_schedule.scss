@@ -1,0 +1,267 @@
+
+#TopicTab {
+	background: #eee;
+	border-radius: 5px;
+}
+
+.nav-justified .nav-item {
+	text-align: left !important;
+}
+
+.nav-pills .nav-link {
+	border-radius: 0px;
+	padding: 10px;
+	-webkit-transition: all .45s ease;
+	-moz-transition: all .45s ease;
+	-ms-transition: all .45s ease;
+	-o-transition: all .45s ease;
+	transition: all .45s ease;
+}
+
+.nav-pills .nav-link.active {
+	background: $primary-color;
+	border-radius: 8px;
+	position: relative;
+
+	h2 {
+		color: $white;
+	}
+
+	h5 {
+		color: $white;
+	}
+
+	&:before {
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 17px 20px 0;
+		border-color: #000 transparent transparent;
+		content: "";
+		position: absolute;
+		bottom: -18px;
+		transform: translateY(-50%);
+		transition: .3s;
+		left: 80px;
+		margin: auto;
+		z-index: -1;
+		border-color: $primary-color transparent transparent;
+	}
+
+}
+
+
+
+.text-color-2 {
+	color: $secondary-color;
+}
+  
+.session-item, .activity {
+	padding: 0.8em;  
+	border-radius: 10px;
+	font-size: 16px;
+
+	@media (min-width: 576px) {
+		height:95%;
+	} 
+}
+
+.session-time {
+	white-space: nowrap;
+	font-size: 0.8em;
+	color: #606060;
+}
+
+.session-abstract {
+	font-size: 0.8em;
+	line-height: 120%;
+
+}
+
+.local-room {
+	font-size: 0.9em;
+}
+
+  
+.room-lightning-talk {
+	background-color: #cfcfdf50;
+}
+  
+.room-keynote {
+//	background-color: #40d9ff20;
+  background-color: #5089f032;
+}
+	
+.room-a {
+//	background-color: #e3a0ff80;
+	background-color: #40e9ff32;
+}
+
+.room-b {
+//	background-color: #62fdd140;
+  background-color: #4019e032;
+}
+
+.room-panel {
+	background-color: #2ca15b40;
+}
+
+.track-tbd {
+	background-color: #f7fa1120;
+}  
+
+.track-tbd2 {
+	background-color: #62fdd140;
+}
+  
+.track-tbd3 {
+	background-color: #9b62fd20;
+}
+  
+.track-tbd4 {
+	background-color: #1b9ecd60;
+}
+
+.track-tbd5 {
+	background-color: #2ba15b20;
+}
+
+.track-tbd6 {
+	background-color: #ff4dc420;
+}
+
+.track-tbd7 {
+	background-color: #5653f810;
+}
+  
+
+.networking {
+	margin-top: 1em;
+}
+
+.color-code-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.color-code-item {
+	padding: 12px 18px; 
+	border-radius: 4px; 
+    margin-right: 1em;
+	color: #202020;
+	margin-bottom: 1em;
+}
+
+.session-track {
+	color: #606060;
+	font-size: 0.9em;;
+}
+
+a.read-more {
+	font-size: 0.9em;
+	color: $blue;
+}
+
+.session-room {
+	font-size: 0.8em;
+	color: #606060;
+}
+
+.session-title {
+	font-weight: 500;
+}
+
+.session-title a {
+	color: #404040;	
+}
+.session-title a:hover {
+	text-decoration: underline;
+}
+
+.session-speakers {
+	font-size: 0.9em;
+	font-style: italic;
+	color: #404040;
+}
+
+.session-info p {
+	margin: 0;
+}
+
+.track-name {
+	font-size: 0.8em;
+}
+
+.hour{
+//	color:rgba(0, 0, 0, 0.653);
+color: #404040;
+
+}
+
+.color-code-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.color-code-item {
+	padding: 12px 18px; 
+	border-radius: 4px; 
+    margin-right: 1em;
+	color: white;
+}
+
+.session-meta {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+#day-buttons .btn:focus, #day-buttons.btn.focus {
+	background-color: #dc3545;
+	color: #ffffff;
+}
+
+.card-abstract {
+	font-size: 0.9em;
+	color: #404040;
+	font-style: italic;
+}
+
+.card-abstract a.read-more {
+	font-weight: 500;
+}
+
+.daygrid {
+	display: grid;
+	grid-template-columns: 80px repeat(2, 1fr);
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
+	grid-row-gap: 0.5em;
+	@media (max-width: 576px) {
+		grid-template-columns: 60px 1fr;
+	}
+}
+
+.daygrid-xs {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto;
+	grid-column-gap: 1em;
+	grid-row-gap: 0.5em;
+}
+
+.daygrid .activity {
+    text-align: center;
+	background-color: #cfcfdf50;
+	font-weight: 500;
+}
+
+.session-item div.addeventatc {
+	background-color: #ffffff50;
+	line-height: 40px;
+}
+
+.timelabel {
+	font-size: 0.9em;
+}

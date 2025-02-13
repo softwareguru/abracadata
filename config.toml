@@ -1,0 +1,168 @@
+
+baseURL= "https://abracadata.space/"
+canonifyURLs = false
+title = "AbracaData Summit"
+description = "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
+enableRobotsTXT = true
+RemovePathAccents = true
+DefaultContentLanguage = "en"
+
+theme = "abracadata"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+speaker = "speakers"
+
+
+############################## navigation ###############################
+[menu]
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 1
+
+  [[menu.main]]
+  #  identifier = "program"
+    name = "Program"
+    url = "program"
+    weight = 2
+
+  #[[menu.main]]
+  #  identifier = "schedule"
+  #  name = "Schedule"
+  #  url = "/program"
+  #  parent = "program"
+  #  weight = 1
+
+
+  [[menu.main]]
+  name = "Register"
+  URL = "register"
+  weight = 3
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "speakers/archive/"
+  weight = 2
+
+  #[[menu.main]]
+  #  identifier = "sponsor"
+  #  name = "Sponsors"
+  #  url = "sponsors"
+  #  weight = 3
+
+  #[[menu.main]]
+  #  identifier = "sponsor0"
+  #  name = "2024 Sponsors"
+  #  url = "/sponsors"
+  #  parent = "sponsor"
+ #   weight = 1
+
+  #[[menu.main]]
+  #  identifier = "sponsor1"
+  #  name = "Prospectus"
+  #  url = "/files/.pdf"
+  #  weight = 2
+  #  parent = "sponsor"
+
+
+  [[menu.main]]
+  name = "FAQ"
+  URL = "faq"
+  weight = 4
+
+
+# Everything below this are Site Params
+
+[params]
+description = "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
+logo = "/images/abracadata-logo.png"
+home = "Home"
+privacy_policy = "/privacy"
+#google_analytics = "#########"
+#live_link = ""
+
+# First one is picked as the Twitter card image if not set on page.
+images = ["/images/website card-2025.jpg"]
+#start_date = "2023-12-12T09:00-05:00"
+#end_date = "2023-12-14T17:00-05:00" 
+
+[params.hero]
+text = ""
+
+[params.hero.cta1]
+text = "Become a speaker"
+link = ""
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "Join event"
+link = ""
+
+
+[params.links]
+[[params.links.social]]
+    name = "Join us!"
+    url = "mailto:hello@abracadata.space"
+    icon = "bi bi-twitter-x"
+
+[[params.links.social]]
+    name = "Join us!"
+    url = "#"
+    icon = "bi bi-linkedin"
+
+[[params.links.footer_resources]] 
+    name = "Team"
+    url = "/team"
+
+[[params.links.footer_resources]]
+    name = "Code of Conduct"
+    url = "/coc"
+
+ [[params.links.footer_resources]]
+    name = "Prospectus"
+    url = "/files/.pdf"
+
+[[params.links.footer_resources]] 
+    name = "Privacy Policy"
+    url = "/privacy"
+
+[permalinks]
+tags = "/blog/tags/:slug/"
+posts = "/:year/:month/:title/"
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "/plugins/bootstrap.min.css"
+
+[[params.plugins.css]]
+link = "/plugins/bootstrap-table.min.css"
+
+[[params.plugins.css]]
+link = "/plugins/fontawesome.css"
+
+[[params.plugins.css]]
+link = "/plugins/swiper-bundle.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link="/plugins/jquery.min.js"
+
+[[params.plugins.js]]
+link="/plugins/bootstrap.bundle.min.js"
+
+[[params.plugins.js]]
+link="/plugins/bootstrap-table.min.js"
+
+[[params.plugins.js]]
+link="/plugins/swiper-bundle.min.js"
