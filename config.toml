@@ -49,7 +49,7 @@ speaker = "speakers"
 
   [[menu.main]]
   name = "Speakers"
-  URL = "speakers/archive/"
+  URL = "speakers"
   weight = 2
 
   #[[menu.main]]
