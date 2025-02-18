@@ -28,11 +28,11 @@ speaker = "speakers"
   url = "/about"
   weight = 1
 
-  [[menu.main]]
+  #[[menu.main]]
   #  identifier = "program"
-    name = "Program"
-    url = "program"
-    weight = 2
+  #  name = "Program"
+  #  url = "program"
+  #  weight = 2
 
   #[[menu.main]]
   #  identifier = "schedule"
@@ -119,9 +119,6 @@ link = ""
     url = "#"
     icon = "bi bi-linkedin"
 
-[[params.links.footer_resources]] 
-    name = "Team"
-    url = "/team"
 
 [[params.links.footer_resources]]
     name = "Code of Conduct"
@@ -134,6 +131,19 @@ link = ""
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
     url = "/privacy"
+
+[[params.links.footer_contact]] 
+    name = "Team"
+    url = "/team"
+
+[[params.links.footer_contact]] 
+    name = "Other events by SG"
+    url = "/sg-events"
+
+[[params.links.footer_contact]] 
+    name = "info@abracadata.space"
+    url = "mailto:info@abracadata.space"
+
 
 [permalinks]
 tags = "/blog/tags/:slug/"
