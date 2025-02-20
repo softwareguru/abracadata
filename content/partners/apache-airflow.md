@@ -4,6 +4,6 @@ level: "collaborators"
 images: 
  - "/images/partners/Apache-Airflow.png"
 webUrl: "https://airflow.apache.org/"
-weight: 13
+weight: 3
 ---
 
