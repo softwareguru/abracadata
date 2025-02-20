@@ -1,5 +1,5 @@
 ---
-title: Previous speakers
+title: Previous Sorcerers
 layout: archive
 ---
 

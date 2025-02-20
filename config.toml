@@ -48,7 +48,7 @@ speaker = "speakers"
   weight = 3
 
   [[menu.main]]
-  name = "Speakers"
+  name = "Sorcerers"
   URL = "speakers"
   weight = 2
 
@@ -111,12 +111,12 @@ link = ""
 [params.links]
 [[params.links.social]]
     name = "Join us!"
-    url = "mailto:hello@abracadata.space"
+    url = "https://x.com/AbracaDataAi"
     icon = "bi bi-twitter-x"
 
 [[params.links.social]]
     name = "Join us!"
-    url = "#"
+    url = "https://www.linkedin.com/company/abracadata-ai/"
     icon = "bi bi-linkedin"
 
 
