@@ -111,12 +111,12 @@ link = ""
 [params.links]
 [[params.links.social]]
     name = "Join us!"
-    url = "https://x.com/AbracaDataAi"
+    url = "https://x.com/AbracaDataSpace"
     icon = "bi bi-twitter-x"
 
 [[params.links.social]]
     name = "Join us!"
-    url = "https://www.linkedin.com/company/abracadata-ai/"
+    url = "https://www.linkedin.com/company/abracadataspace/"
     icon = "bi bi-linkedin"
 
 
