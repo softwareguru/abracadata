@@ -16,12 +16,12 @@
 
 
             {{ if .Params.redirection }}
-            <a href="{{ .Params.redirection }}">
-              <button type="button" class="btn button-hero-blue mt-2" target="_blank">{{ .Params.Buttoname }}</button>
+            <a href="{{ .Params.redirection }}" class="news-button-item">
+              <button type="button" class="btn button-hero-blue mt-2 mb-4" target="_blank">{{ .Params.Buttoname }}</button>
             </a>
             {{ else }}
-            <a href="{{ .Permalink }}">
-              <button type="button" class="btn button-hero-blue mt-2" target="_blank">{{ .Params.Buttoname }}</button>
+            <a href="{{ .Permalink }}" class="news-button-item">
+              <button type="button" class="btn button-hero-blue mt-2 mb-4" target="_blank">{{ .Params.Buttoname }}</button>
             </a>
             {{ end}}
 
