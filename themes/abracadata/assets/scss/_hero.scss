@@ -5,7 +5,7 @@
 }
 
 .abracadata-logo{
-  padding-top: 145px;
+  padding-top: 105px;
   width: 760px;
 }
 
@@ -13,6 +13,13 @@
   color: $orange;
   font-size: 1.7rem;
   margin-top: 50px;
+}
+
+.hero-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .button-hero{
