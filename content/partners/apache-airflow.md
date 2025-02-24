@@ -1,9 +1,9 @@
 ---
-title: "Apache Airflow"
+title: "Airflow Summit"
 level: "collaborators"
 images: 
- - "/images/partners/Apache-Airflow.png"
-webUrl: "https://airflow.apache.org/"
+ - "/images/partners/airflow-summit.png"
+webUrl: "https://airflowsummit.org/"
 weight: 3
 ---
 
