@@ -47,10 +47,10 @@ speaker = "speakers"
   URL = "register"
   weight = 3
 
-  [[menu.main]]
-  name = "Sorcerers"
-  URL = "speakers"
-  weight = 2
+  #[[menu.main]]
+  #name = "Sorcerers"
+  #URL = "speakers"
+  #weight = 2
 
   #[[menu.main]]
   #  identifier = "sponsor"

@@ -2,8 +2,8 @@
 event_info:
   enable : true
   title : "Be part of the magic that brings AI to life"
-  description1 : "Artificial intelligence is revolutionizing the world, and data is its driving force. Every AI solution is only as powerful as the data behind it."
-  description2: "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
+  description1 : "Artificial Intelligence is transforming the world, and data is the magic that powers it. Abracadata is a global conference dedicated to showcasing the crucial role of data and the experts behind AI solutions."
+  description2: "Join the Data Sorcerers, MLOps Wizards, Keepers of the Data Grimoire and Guild Masters of Engineering to learn all about data acquisition, storage, transformation, observability, MLOps, and data team culture."
   cta_text: "Conjure your access"
   cta_link: "/register"
   features: 
