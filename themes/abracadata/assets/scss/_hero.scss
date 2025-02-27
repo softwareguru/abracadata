@@ -45,12 +45,14 @@
 .button-hero{
   background-color: $primary-color !important;
   color: $orange;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   font-size: 1.3rem;
   border: solid 1px $white;
 
   &:hover{
     color: white;
+    background-color: $blue !important;
+    border: solid 1px $white;
   }
 }
