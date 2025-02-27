@@ -1,7 +1,9 @@
 .hero-section{
   background: rgb(28,88,219);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 24%, rgba(28,88,219,1) 100%); 
+  background: no-repeat url(/images/hero-background.jpg);
+  background-size: cover;
   height: 100vh;
+  padding-top: 10vh;
 }
 
 .hero-logo{
@@ -20,14 +22,17 @@
 }
 
 .hero-grid{
-  padding-top: 100px;
   display: grid;
-  height: 100vh;
+  height: 90vh;
   grid-template-columns: 1fr;
   grid-template-rows: 48% 20% 25%;
   grid-column-gap: 0px;
   justify-items: center;
   align-items: center;
+  background-image: url(/images/hero-stars.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
 }
 
 
