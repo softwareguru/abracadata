@@ -1,5 +1,5 @@
 ---
-title: "Registrarion is open!"
+title: "Registration is open!"
 date: 2025-02-12T10:00:00
 # post thumb
 images: ["images/blog/registration-2025.png"]
