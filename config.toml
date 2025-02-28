@@ -77,20 +77,18 @@ speaker = "speakers"
 # Everything below this are Site Params
 
 [params]
-description = "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
+description = "Abracadata is a global online conference focused showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
 logo = "/images/abracadata-logo.png"
 home = "Home"
 privacy_policy = "/privacy"
-#google_analytics = "#########"
+google_analytics = "G-MPLT91BKTH"
 #live_link = ""
 
 # First one is picked as the Twitter card image if not set on page.
-images = ["/images/website-card-2025.jpg"]
-#start_date = "2023-12-12T09:00-05:00"
-#end_date = "2023-12-14T17:00-05:00" 
+images = ["/images/ad25-card.jpg"]
+start_date = "2025-06-11T09:00-05:00"
+end_date = "2025-06-12T16:00-05:00" 
 
-[params.hero]
-text = ""
 
 [params.hero.cta1]
 text = "Become a speaker"
@@ -128,7 +126,7 @@ link = "/register"
     url = "/privacy"
 
 [[params.links.footer_contact]] 
-    name = "Team"
+    name = "Organizers"
     url = "/team"
 
 [[params.links.footer_contact]] 
@@ -136,8 +134,8 @@ link = "/register"
     url = "/sg-events"
 
 [[params.links.footer_contact]] 
-    name = "info@abracadata.space"
-    url = "mailto:info@abracadata.space"
+    name = "accio@abracadata.space"
+    url = "mailto:accio@abracadata.space"
 
 
 [permalinks]
