@@ -2,7 +2,7 @@
 title: "Airflow Summit"
 date: 2025-02-28T10:34:47-06:00
 images: 
- - /images/partners/airflowsummit.png
+ - /images/partners/airflow.png
 weburl: https://airflowsummit.org/
 ---
 

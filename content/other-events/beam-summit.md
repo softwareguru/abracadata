@@ -2,7 +2,7 @@
 title: "Beam Summit"
 date: 2025-02-28T10:34:55-06:00
 images: 
- - /images/partners/beam-summit.png
+ - /images/partners/beamsummit.png
 weburl: https://beamsummit.org/
 draft: false
 ---
