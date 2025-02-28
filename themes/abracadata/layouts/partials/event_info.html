@@ -8,11 +8,6 @@
     <div class="info-grid">
       <div id="desc1">{{ .description1 }}</div>
       <div id="desc2">{{ .description2 }}</div>
-      <div id="register">
-        <a href="{{ .cta_link }}"> 
-          <img src="/images/conjure-access.png">
-        </a>
-      </div>
       <div id="cfp">
         <a href="https://convoca.dev/abracadata-2025/cfp">
           <h3>CFP</h3>
@@ -22,6 +17,12 @@
       <div id="sponsors">
         <h3>Sponsors</h3>
         <img src="/images/wand.png">
+      </div>
+      <div id="register">
+        <a href="{{ .cta_link }}"> 
+          <img src="/images/conjure-access.png" class="d-none d-xl-block">
+          <button type="button" class="btn btn-rounded button-hero mt-2 d-xl-none">Conjure your access</button>
+        </a>
       </div>
       <div id="team">
         <a href="/team">
