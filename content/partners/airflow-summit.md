@@ -4,6 +4,6 @@ level: "collaborators"
 images: 
  - "/images/partners/airflow-summit.png"
 webUrl: "https://airflowsummit.org/"
-weight: 3
+weight: 1
 ---
 
