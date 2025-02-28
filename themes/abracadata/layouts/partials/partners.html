@@ -1,26 +1,18 @@
 <section id="partners" class="section partners">
-  <div class="sponsors-section text-center">
-    <h2>Enchanters & Allies</h2>
-  </div>
   <div class="container">
+    <hr class="section-divider mb-4" />
+    <h2 class="text-center">Enchanters & Allies</h2>
 
     {{ $category_exists := 0 }}
-    {{range $index, $value := where (where .Site.RegularPages "Section" "partners") ".Params.level" "collaborators" }}
-    {{ if eq $index 0 }}
-    <div id="collaborators" class="mb-4">
-      <div class="sponsor-strip collaborators">
-        {{ end }}
+    <div class="sponsor-strip collaborators">
+      {{range where .Site.RegularPages "Section" "partners" }}
         <div class="sponsor-item">
           <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
             <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">
           </a>
         </div>
-        {{ end }}
-        {{ if eq $category_exists 1 }}
-      </div>
-    </div>
-    {{ end }}
-
+      {{ end }}
+    </div>  
     <hr class="section-divider" />
   </div>
 </section>
