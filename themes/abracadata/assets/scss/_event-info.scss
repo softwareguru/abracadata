@@ -1,17 +1,52 @@
-.event-info-title{
-	margin-top: -20px;
-  }
-  .info-description{
-	margin-top: 30px;
 
+
+section.event-info {
+  background-color: $white;  
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 300px 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.info-grid div {
+  border: solid 2px $primary-color;
+  border-radius: 20px;
+  padding: 1em 2em;
+  text-align: center;
+  &:hover {
+    background-color: $gray-light;
   }
 
-  .button-hero-blue{
+  img {
+    width:100%;
+  }
+}
+  
+#desc1 { grid-area: 1 / 1 / 2 / 3; }
+#team { grid-area: 2 / 1 / 3 / 2; }
+#cfp { grid-area: 1 / 4 / 2 / 5; }
+#register { grid-area: 1 / 3 / 3 / 4; }
+#sponsors { grid-area: 1 / 5 / 2 / 6; }
+#other { grid-area: 2 / 2 / 3 / 3; }
+#desc2 { grid-area: 2 / 4 / 3 / 6; }
+
+#desc1, #desc2 {
+  align-content: center;
+}
+
+#register {
+  align-content: center;
+  border: 0px;
+  padding: 0px;
+}
+
+
+.button-hero-blue{
     background-color: $primary-color;
     color: white;
-    border-radius: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
     font-size: 1.3rem;
 
     &:hover{
