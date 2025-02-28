@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<section class="section {{ .Type }}">
+    <div class="container">
+        {{ range .Data.Pages.ByTitle }}
+        <div class="row">
+            
+            <div class="col-md-3 mt-4 mb-4">
+                {{ $img := resources.Get (index .Params.images 0) }}
+                {{ with $img }}
+                  {{ $imgp := $img.Resize "600x webp" }}
+                <img src="{{$imgp.Permalink }}" class="img-fluid mx-auto d-block">
+                {{ end }}
+            </div>
+           
+            <div class="col-md-9" style="display: flex;
+            justify-content: center;
+            align-items: center;">
+                <p>{{ .Content }}</p>
+            </div>
+            <hr class="section-divider" />
+        </div>
+        {{ end }}
+    </div>
+
+</section>
+
+{{ end }}
