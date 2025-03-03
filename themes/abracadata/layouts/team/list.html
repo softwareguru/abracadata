@@ -1,17 +1,15 @@
-
 {{ define "main" }}
 
 {{ $data := index .Site.Data .Site.Language.Lang }}
 
-  <div class="container">
-    <h4>{{.Content}}</h4>
-    <section class="speaker-2 section" style="margin-top: -95px;">
-
-
-    <h2 class="my-5 text-center">Produced by <a href="https://sg.com.mx/about-us">Software Guru</a></h2>
+<div class="container">
+  <h4>{{.Content}}</h4>
+  <section class="speaker-2 section" style="margin-top: -95px;">
+    <br>
+    <h2 class="my-5 text-center ">Produced by <a href="https://sg.com.mx/about-us">Software Guru</a></h2>
     <div class="speaker-strip">
       {{ range where .Data.Pages.ByTitle "Params.group" "sg" }}
-      <div class="speaker-item">
+      <div class="speaker-item mb-3">
         <div class="speaker-block">
           <div class="headshot-box">
             <a>
@@ -19,12 +17,12 @@
             </a>
           </div>
           <div class="speaker text-center">
-           
-            <h4 class="mb-0 mt-3 text-primary">{{ .Title }}</h4>
-          
-            <h5 class="mb-0 mt-3">{{ .Params.Committee }}</h5>
-          
-            <p class="mb-0 mt-3">{{ .Params.Designation }}</p>
+
+            <h4 class="mb-0 mt-1 text-primary">{{ .Title }}</h4>
+
+            <h5 class="mb-0 mt-1">{{ .Params.Committee }}</h5>
+
+            <p class="mb-0 mt-1">{{ .Params.Designation }}</p>
 
             <div class="info">
               <ul class="list-inline">
@@ -44,10 +42,7 @@
 
 
 
-</section>
+  </section>
 </div>
 
 {{ end }}
-
-
-       
