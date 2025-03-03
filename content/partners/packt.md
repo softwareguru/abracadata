@@ -2,7 +2,7 @@
 title: "Packt"
 level: "collaborators"
 images:
- - "/images/partners/packt.png"
+ - "/images/partners/packt-.png"
 webUrl: "https://www.packtpub.com/"
 weight: 5
 ---
