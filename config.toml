@@ -47,6 +47,11 @@ speaker = "speakers"
   #URL = "speakers"
   #weight = 2
 
+  [[menu.main]]
+   name = "Sponsors"
+   URL = "sponsors"
+   weight = 3
+
   #[[menu.main]]
   #  identifier = "sponsor"
   #  name = "Sponsors"
@@ -63,7 +68,7 @@ speaker = "speakers"
   #[[menu.main]]
   #  identifier = "sponsor1"
   #  name = "Prospectus"
-  #  url = "/files/.pdf"
+  #  url = "/files/AbracaData-2025-Prospectus.pdf"
   #  weight = 2
   #  parent = "sponsor"
 
@@ -119,7 +124,7 @@ link = "/register"
 
  [[params.links.footer_resources]]
     name = "Prospectus"
-    url = "/files/.pdf"
+    url = "/files/AbracaData-2025-Prospectus.pdf"
 
 [[params.links.footer_resources]] 
     name = "Privacy Policy"
