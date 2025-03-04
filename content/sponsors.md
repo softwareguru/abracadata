@@ -22,6 +22,6 @@ Position your organization as a leader in the AI data engineering space, sponsor
  
  * Product Showcase: Demonstrate your latest products and solutions to a captive audience.
 
-Engage with the magic or data, take a look at our <a href="/files/AbracaData-2025-Prospectus.pdf" target="_blank">Prospectus</a>
+### Engage with the magic of data, take a look at our <a href="/files/AbracaData-2025-Prospectus.pdf" target="_blank">Prospectus</a>
 
 
