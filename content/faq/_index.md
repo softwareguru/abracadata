@@ -18,7 +18,7 @@ Registration is open now. Sign up for the event [here](/register).
 
 ### How can I be a speaker?
 
-We are accepting proposals for presentations. Please review our guidelines, and register your talk [here](/cfp).
+We are accepting proposals for presentations. Please review our guidelines, and register your talk [here](https://convoca.dev/abracadata-2025/cfp).
 
 ### Is there a code of conduct?
 Yes. Please review our [Code of Conduct](/coc).
