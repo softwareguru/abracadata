@@ -15,13 +15,13 @@
 
 
             
-            <a href="{{ with .Params.redirection }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="news-button-item">
+            <a href="{{ with .Params.redirection }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" class="news-button-item" target="_blank">
               <button type="button" class="btn button-hero-blue mt-2 mb-4 btn-rounded px-4" target="_blank">{{ .Params.Buttoname }}</button>
             </a>
 
           </div>
           <div class="col-lg-7 col-md-6">
-            <a href="{{ .Params.redirection }}" target="_blank">
+            <a href="{{ with .Params.redirection }}{{ . }}{{ else }}{{ .Permalink }}{{ end }}" target="_blank">
               <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" alt="{{ .Title }}"
                 class="img-fluid venue-img">
             </a>
