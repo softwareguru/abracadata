@@ -2,13 +2,13 @@
 
   <div class="container">
 
-    <h2 class="text-center">Sorcerers are on their way. Expect news soon!</h2>
+    <h2 class="text-center mb-4">Featured Keynote Sorcerers</h2>
   </div>
-  <!--<div class="container text-center">
-    <div class="heading mb-4">
+  <div class="container text-center">
+    <!--<div class="heading mb-4">
       <h2 class="title-featured"><img src="/images/star.png" width="25"> Join the masterminds weaving AI magic! <img src="/images/star.png" width="25"></h2>
       
-    </div>
+    </div>-->
     <div class="speaker-strip">
       {{ range where (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") "Params.featured" true }}
       <div class="speaker-item">
@@ -16,7 +16,7 @@
           <div class="headshot-box-featured">
             <a href="{{.Permalink}}">
 
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid rounded-circle">
+              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -56,6 +56,6 @@
       {{ end }}
     </div>
     <hr class="section-divider">
-  </div>-->
+  </div>
 </section>
 
