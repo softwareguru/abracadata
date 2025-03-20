@@ -9,7 +9,7 @@
       <h2 class="title-featured"><img src="/images/star.png" width="25"> Join the masterminds weaving AI magic! <img src="/images/star.png" width="25"></h2>
       
     </div>-->
-    <div class="speaker-strip">
+    <div class="speaker-strip keynote-border">
       {{ range where (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") "Params.featured" true }}
       <div class="speaker-item">
         <div class="speaker-block">
@@ -55,7 +55,6 @@
       </div>
       {{ end }}
     </div>
-    <hr class="section-divider">
   </div>
 </section>
 

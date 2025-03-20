@@ -10,10 +10,16 @@
 	text-align: center;
 }
 
+.keynote-border{
+	margin-bottom: -40px;
+}
+
+
 .speaker-strip {
 	display: grid;
 	grid-template-columns: repeat(4, 22%);
 	grid-gap: 60px;
+	
 
 	@include tablet {
 		grid-template-columns: repeat(3, 32%);
