@@ -4,5 +4,5 @@ title: Sorcerers
 ---
 
 
-### Meet some of our speakers for 2025.
+### Meet our Keynote Sorcerers of the first edition of Abracadata
 

@@ -4,4 +4,4 @@ layout: archive
 ---
 
 
-### Meet our archive of speakers from all previous editions.
+### Meet our archive of Sorcerers from all previous editions.
