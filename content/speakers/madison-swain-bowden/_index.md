@@ -8,4 +8,5 @@ linkedin: https://www.linkedin.com/in/madisonswainbowden/
 events:
  - 2025
 featured: true
+draft: true
 ---
