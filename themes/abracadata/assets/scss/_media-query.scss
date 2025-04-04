@@ -19,7 +19,7 @@
   }
 }
 @mixin desktop{
-  @media(max-width:991px){
+  @media(max-width:995px){
     @content;
   }
 }

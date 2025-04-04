@@ -2,21 +2,23 @@
 
   <div class="container">
 
-    <h2 class="text-center mb-4">Featured Keynote Sorcerers</h2>
+    <h2 class="text-center mb-4">Featured Sorcerers</h2>
   </div>
   <div class="container text-center">
     <!--<div class="heading mb-4">
       <h2 class="title-featured"><img src="/images/star.png" width="25"> Join the masterminds weaving AI magic! <img src="/images/star.png" width="25"></h2>
       
     </div>-->
-    <div class="speaker-strip keynote-border">
+
+    <div class="speaker-strip keynote-border mb-4 speakers-1">
       {{ range where (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") "Params.featured" true }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="headshot-box-featured">
             <a href="{{.Permalink}}">
 
-              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid">
+              <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}"
+                alt="Photo of {{.Title}}" class="img-fluid">
             </a>
           </div>
           <div class="speaker-info text-center">
@@ -24,19 +26,19 @@
               <a href="{{.Permalink | relURL }}" class="fw-bold">{{ .Title }}</a>
             </h3>
             <h4>{{ .Params.designation }}</h4>
-    
-          <ul class="social-icon-two-featured social-icon-colored text-center">
+
+            <ul class="social-icon-two-featured social-icon-colored text-center">
               {{ with .Params.twitter }}
               {{ if ne . "" }}
               <li><a href="{{ . }}" target="_blank"><span class="fab fa-twitter"></span></a></li>
               {{ end }}
-              {{ end }} 
+              {{ end }}
 
               {{ with .Params.linkedin }}
               {{ if ne . "" }}
               <li><a href="{{ . }}" target="_blank"><span class="fab fa-linkedin-in"></span></a></li>
               {{ end }}
-              {{ end }} 
+              {{ end }}
 
               {{ with .Params.github }}
               {{ if ne . "" }}
@@ -49,7 +51,35 @@
               <li><a href="{{ . }}" target="_blank"><span class="fab fa-facebook"></span></a></li>
               {{ end }}
               {{ end }}
-          </ul>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="speaker-strip keynote-border speakers-2">
+
+      {{ range where (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") "Params.featured" true }}
+      <div class="speaker-item">
+        <div class="speaker-block">
+          <div class="flip-card">
+            
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <a href="{{.Permalink}}">
+
+                    <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid" style="border-radius: 15px;">
+                  </a>
+
+                </div>
+                <div class="flip-card-back">
+                  <div class="speaker-description-card">
+                    <h3><a href="{{.Permalink | relURL }}" class="fw-bold">{{ .Title }}</a></h3>
+                    <p>{{ .Params.designation }}</p>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
@@ -57,4 +87,3 @@
     </div>
   </div>
 </section>
-

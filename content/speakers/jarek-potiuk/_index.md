@@ -9,3 +9,4 @@ events:
 featured: true
 ---
 
+Independent Open-Source Contributor and Advisor, Committer and PMC member of Apache Airflow, Member of the Apache Software Foundation, Security Committee Member of the Apache Software Foundation. Organizer of community-focused events, speaker.

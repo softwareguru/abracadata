@@ -17,9 +17,13 @@
 
 .speaker-strip {
 	display: grid;
-	grid-template-columns: repeat(4, 22%);
-	grid-gap: 60px;
-	
+	grid-template-columns: repeat(4, 23%);
+	grid-gap: 35px;
+
+	@include desktop{
+		grid-template-columns: repeat(3, 32%);
+		grid-gap: 30px;
+	}
 
 	@include tablet {
 		grid-template-columns: repeat(3, 32%);
@@ -32,6 +36,20 @@
 	 
 }
 
+.speakers-1{
+	@media (min-width:996px){
+		display: none;
+	}
+
+
+}
+
+
+.speakers-2 {
+	@include desktop{
+	display: none;
+  }
+}
 
 .speaker-info .thumb {
     text-align: center;
