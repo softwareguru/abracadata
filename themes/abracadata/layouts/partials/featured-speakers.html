@@ -67,17 +67,21 @@
             
               <div class="flip-card-inner">
                 <div class="flip-card-front">
-                  <a href="{{.Permalink}}">
 
-                    <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid" style="border-radius: 15px;">
-                  </a>
-
-                </div>
-                <div class="flip-card-back">
                   <div class="speaker-description-card">
                     <h3><a href="{{.Permalink | relURL }}" class="fw-bold">{{ .Title }}</a></h3>
                     <p>{{ .Params.designation }}</p>
                   </div>
+
+                </div>
+
+
+                <div class="flip-card-back">
+                  
+                  <a href="{{.Permalink}}">
+                    <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{else}}{{ .Params.Image | relURL }}{{ end }}" alt="Photo of {{.Title}}" class="img-fluid" style="border-radius: 15px;">
+                  </a>
+
                 </div>
               </div>
           </div>

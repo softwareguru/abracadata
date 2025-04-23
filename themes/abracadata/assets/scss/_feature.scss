@@ -160,12 +160,19 @@
 }
 
 .flip-card-back {
-  background: no-repeat url(/images/card.png);
   color: white;
   margin: auto;
   display: block;
   transform: rotateY(180deg);
 }
+
+
+.flip-card-front {
+	background: no-repeat url(/images/card.png);
+	width: 250px;
+	height: 400px;
+
+  }
 
 .speaker-description-card{
   position: absolute;
