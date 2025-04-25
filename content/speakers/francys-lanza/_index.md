@@ -1,5 +1,5 @@
 ---
-title: "Maria Lanza"
+title: "Francys Lanza"
 designation: "Lead Data Scientist at Bankaya"
 images:
  - images/speakers/maria-lanza.png
