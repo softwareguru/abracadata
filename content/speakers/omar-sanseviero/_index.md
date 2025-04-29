@@ -1,6 +1,6 @@
 ---
 title: "Omar Sanseviero"
-designation: "Machine Learning Engineer"
+designation: "Machine Learning Engineer at Google DeepMind"
 images:
  - images/speakers/omar-sanseviero.png
 twitter: 

@@ -4,5 +4,5 @@ title: Sorcerers
 ---
 
 
-### Meet our Sorcerers of the first edition of Abracadata
+### Meet our Confirmed Sorcerers of the first edition of Abracadata
 
