@@ -60,8 +60,12 @@ speaker = "speakers"
     parent = "program"
     weight = 1
 
-
-
+  [[menu.main]]
+    identifier = "program2"
+    name = "Sessions"
+    url = "sessions/2025"
+    parent = "program"
+    weight = 2
 
   #[[menu.main]]
   #  identifier = "sponsor"

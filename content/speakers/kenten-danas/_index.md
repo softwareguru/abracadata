@@ -3,7 +3,7 @@ title: "Kenten Danas"
 designation: "DevRel Manager at Astronomer"
 images:
  - /images/speakers/kenten-danas.png
-linkedin: 
+linkedin: http://linkedin.com/in/kentendanas
 events:
  - 2025
 featured: true
