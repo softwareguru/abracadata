@@ -1,5 +1,5 @@
 ---
-title: "Power your data orchestration with Apache Airflow 3"
+title: "Workshop: Power your data orchestration with Apache Airflow 3"
 slug: /power-your-data-orchestration-with-apache-airflow-3
 speakers:
  - Kenten Danas

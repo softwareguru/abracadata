@@ -1,5 +1,5 @@
 ---
-title: "Workshop: Your pipeline writes prompts: how to use Gemini for inference with Apache Beam"
+title: "Workshop: Your pipeline writes prompts, how to use Gemini for inference with Apache Beam"
 slug: your-pipeline-writes-prompts
 speakers:
  - Israel Herraiz
