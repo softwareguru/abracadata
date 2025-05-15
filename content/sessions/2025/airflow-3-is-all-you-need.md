@@ -4,8 +4,8 @@ slug: /airflow-3-is-all-you-need
 speakers:
  - Jarek Potiuk
 block: 
-time_start: 2025-06-11T16:00:00.000Z
-time_end: 2025-06-11T16:45:00.000Z
+time_start: 2025-06-11T14:35:00.000Z
+time_end: 2025-06-11T15:05:00.000Z
 draft: false
 ---
 

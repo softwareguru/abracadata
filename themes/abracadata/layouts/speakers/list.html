@@ -10,7 +10,7 @@
       {{ if in .Params.events 2025 }}
       <div class="speaker-item">
         <div class="speaker-block">
-          <div class="headshot-box">
+          <div class="">
             <a href="{{.Permalink}}">
                 {{ $img := resources.Get (index .Params.images 0) }}
                 {{ with $img }}
@@ -19,7 +19,7 @@
                 {{ end }}  
             </a>
           </div>
-          <div class="speaker-info text-center">
+          <div class="speaker-info text-center mt-2">
             <h4 class="my-0"><a href="{{.Permalink | relURL }}">{{ .Title }}</a></h4>
             <p class="mb-4">{{ .Params.Designation}}</p>
           </div>

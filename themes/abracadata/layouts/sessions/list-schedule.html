@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<div class="container mb-4">
+  {{ .Content }}
+
+
+  <div class="row text-center fw-bold mb-2">
+    <div class="col-9">Title</div>
+    <div class="col-3">Time</div>
+  </div>
+
+
+      {{ range sort .Data.Pages ".Params.time_start" }}
+      <div class="row mb-4">
+        <div class="col-9">
+          <a class="session-title" href="{{.Permalink}}">{{ .Params.title }}</a>
+          <br><em>by {{ with .Params.speakers }}{{ if lt (. | len) 3 }}{{ delimit . ", " " & " }}{{ else }}Multiple speakers{{end}}{{ end }}</em>
+          <div class="card-abstract" id="abs-{{.File.TranslationBaseName}}">
+              {{ .Summary | strings.Truncate 150 }}
+          </div>
+        </div>
+        <div id="timeutc-{{.File.TranslationBaseName}}" class="col-3 text-center">{{ with .Params.time_start | time }}{{ .Format "Jan-02 15:04"}}{{ end }}</div>
+      </div>
+      {{ end }}  
+
+</div>
+
+{{ end }}

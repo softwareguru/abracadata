@@ -3,8 +3,8 @@ title: "Causal Inference for Engineers"
 speakers:
  - Brian Blackwell
 block: 
-time_start: 2025-06-11T16:00:00.000Z
-time_end: 2025-06-11T16:45:00.000Z
+time_start: 2025-06-12T15:45:00.000Z
+time_end: 2025-06-12T16:15:00.000Z
 draft: false
 ---
 

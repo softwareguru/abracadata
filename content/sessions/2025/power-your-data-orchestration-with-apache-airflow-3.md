@@ -4,8 +4,8 @@ slug: /power-your-data-orchestration-with-apache-airflow-3
 speakers:
  - Kenten Danas
 block: 
-time_start: 2025-06-11T16:00:00.000Z
-time_end: 2025-06-11T16:45:00.000Z
+time_start: 2025-06-11T17:30:00.000Z
+time_end: 2025-06-11T19:00:00.000Z
 draft: false
 ---
 
