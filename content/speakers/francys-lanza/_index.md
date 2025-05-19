@@ -4,7 +4,7 @@ designation: "Lead Data Scientist at Bankaya"
 images:
  - images/speakers/maria-lanza.png
 twitter: 
-linkedin: https://www.linkedin.com/in/francys-lanza-784865128/
+linkedin: https://www.linkedin.com/in/francys-lanza-garc%C3%ADa-784865128/
 events: 
  - 2025
 featured: true

@@ -60,7 +60,7 @@
 
     <div class="speaker-strip keynote-border speakers-2">
 
-      {{ range where (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") "Params.featured" true }}
+      {{ range (where (where .Site.Pages.ByTitle "Type" "speakers") "Kind" "term") }}
       <div class="speaker-item">
         <div class="speaker-block">
           <div class="flip-card">
