@@ -11,4 +11,4 @@ draft: false
 ---
 
 
-Although many models work well enough on a first try, some times you want to customize them with your own data or for a specific domain, adding new features and boosting performance. In this talk we will explain how to fine-tune LLMs, covering topics as RLHF (reinforcement learning from human feedback) and quantization. Omar will share some of the latest advances in open models, the ecosystem of tools to build your own AI solutions, and how to evaluate and choose the best models according to your needs.
+Although many models work well out of the box, many times you want to customize them with your own data or for a specific domain, adding new features and boosting performance. In this talk, Omar will explain how to fine-tune LLMs, covering topics such as RLHF (reinforcement learning from human feedback) and quantization. Omar will share some of the latest advances in open models, the ecosystem of tools to build your own AI solutions, and how to evaluate and choose the best models according to your needs.
