@@ -4,9 +4,7 @@ date: 2024-04-21T15:49:31-05:00
 url: /schedule
 aliases:
  - /program
-
 days: 
-
   - id: 20251
     enabled: true
     title_short: Wednesday
@@ -61,5 +59,7 @@ days:
         label: "16:55"
         gridarea: "5/1/6/2"
 ---
+
+All times in UTC.
 
 
