@@ -1,5 +1,5 @@
 ---
-title: "Causal Inference for Engineers"
+title: "Causal Inference for Homelessness Research"
 speakers:
  - Brian Blackwell
 block: 
@@ -9,4 +9,4 @@ draft: false
 ---
 
 
-Brian will be discussing how the California Policy Lab uses causal inference methods to analyze the impacts of prevention and rental subsidy programs on homelessness in Los Angeles.
+Homelessness is the number one issue in public policy in Los Angeles, with over 75,000 people experiencing homelessness on any given night in Los Angeles County. Since its inception in 2017, the California Policy Lab (CPL) has been one of the leading academic research organizations focused on homelessness in Los Angeles, focused on the intersection of predictive modeling and causal inference. In this presentation, we will give a brief introduction to causal inference -- a set of statistical methods for inferring relations of cause and effect in observational and experimental data -- and describe some of CPL's causal inference projects related to homelessness, including the impacts of time limited rental subsidies and homelessness prevention.
