@@ -6,6 +6,9 @@ speakers:
 block: 
 time_start: 2025-06-12T16:20:00.000Z
 time_end: 2025-06-12T16:50:00.000Z
+day: 20252
+timeslot: 4
+gridarea: "4/2/5/6"
 draft: false
 ---
 

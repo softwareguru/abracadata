@@ -62,8 +62,8 @@ speaker = "speakers"
 
   [[menu.main]]
     identifier = "program2"
-    name = "Sessions"
-    url = "sessions/2025"
+    name = "Schedule"
+    url = "schedule"
     parent = "program"
     weight = 2
 
