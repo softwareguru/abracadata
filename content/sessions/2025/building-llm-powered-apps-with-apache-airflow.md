@@ -2,7 +2,7 @@
 title: "Building LLM-Powered Apps with Apache Airflow"
 slug: building-llm-powered-apps-with-apache-airflow
 speakers:
- - Ephraim Ewele Anierobi
+ - Ephraim Anierobi
 block: 
 time_start: 2025-06-11T16:55:00.000Z
 time_end: 2025-06-11T17:25:00.000Z

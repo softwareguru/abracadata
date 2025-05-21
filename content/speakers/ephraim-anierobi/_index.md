@@ -1,6 +1,6 @@
 ---
-title: "Ephraim Ewele Anierobi"
-designation: "Senior software engineer at Astronomer, Committer & PMC member at Apache Airflow"
+title: "Ephraim Anierobi"
+designation: "Sr Software Engineer at Astronomer & Airflow PMC"
 images:
  - images/speakers/ephraim-ewele-anierobi.png
 twitter: 
