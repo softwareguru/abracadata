@@ -1,6 +1,6 @@
 ---
 title: "Liliana Millan"
-designation: "Senior Data Scientist"
+designation: "Senior Data Scientist at Carnegie Mellon University"
 images:
  - images/speakers/liliana-millan.png
 twitter: 
