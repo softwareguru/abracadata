@@ -46,9 +46,9 @@ days:
       - type: timelabel
         label: "14:00"
         gridarea: "1/1/2/2"
-      - type: timelabel
-        label: "14:35"
-        gridarea: "2/1/3/2"
+      #- type: timelabel
+      #  label: "14:35"
+      #  gridarea: "2/1/3/2"
       - type: timelabel
         label: "15:45"
         gridarea: "3/1/4/2"

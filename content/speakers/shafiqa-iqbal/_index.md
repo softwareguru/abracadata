@@ -7,7 +7,7 @@ twitter:
 linkedin: https://www.linkedin.com/in/shafiqa-iqbal/
 events:
  - 2025
-draft: false
+draft: true
 ---
 
 As a Big Data Engineer at Google and a top-rated seller on Upwork, I specialize in designing and developing efficient streaming and batch pipelines for data-intensive applications. With a strong background in cloud computing, software engineering, and big data engineering (around 4 years), I am well-equipped to optimize cloud solutions for enhanced data analytics products like Pubsub and Dataflow.
