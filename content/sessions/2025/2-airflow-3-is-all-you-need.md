@@ -1,6 +1,6 @@
 ---
 title: "Airflow 3 is all you need (for your AI/ML flows)"
-slug: /airflow-3-is-all-you-need
+slug: airflow-3-is-all-you-need
 speakers:
  - Jarek Potiuk
 block: 
