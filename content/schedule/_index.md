@@ -72,6 +72,6 @@ days:
 
 ---
 
-All times in UTC.
+All session times refer to Coordinated Universal Time (UTC). Click on the calendar icon for a session to add it to your calendar at your local time.
 
 
