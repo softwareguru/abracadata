@@ -1,5 +1,6 @@
 ---
 title: "To be confirmed"
+slug: to-be-confirmed-1
 speakers:
  - Kasun Amarasinghe
 block: 

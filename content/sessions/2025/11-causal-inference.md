@@ -1,5 +1,6 @@
 ---
 title: "Causal Inference for Homelessness Research"
+slug: causal-inference-for-homelessness-research
 speakers:
  - Brian Blackwell
 block: 

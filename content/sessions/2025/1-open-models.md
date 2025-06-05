@@ -1,5 +1,6 @@
 ---
 title: "Open Models: Use cases, fine-tuning and tooling ecosystem"
+slug: open-models
 aliases:
  - how-to-use-open-models-for-building-custom-enterprise-solutions
 speakers:

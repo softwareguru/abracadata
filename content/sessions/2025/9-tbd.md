@@ -1,5 +1,6 @@
 ---
 title: "To be confirmed"
+slug: to-be-confirmed-2
 speakers:
  - Jesús Ramos
 block: 

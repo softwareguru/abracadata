@@ -1,5 +1,6 @@
 ---
 title: "Responsible Machine Learning with Post Modeling"
+slug: responsible-machine-learning-with-post-modeling
 speakers:
  - Liliana Millan
 block: 
