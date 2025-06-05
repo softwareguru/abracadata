@@ -1,13 +1,13 @@
 ---
-title: "Responsible Machine Learning with Post Modeling"
+title: "To be confirmed"
 speakers:
- - Liliana Millan
+ - Kasun
 block: 
-time_start: 2025-06-11T15:45:00.000Z
-time_end: 2025-06-11T16:15:00.000Z
+time_start: 2025-06-11T16:20:00.000Z
+time_end: 2025-06-11T16:50:00.000Z
 day: 20251
-timeslot: 4
-gridarea: "5/2/6/6"
+timeslot: 5
+gridarea: "6/2/7/6"
 draft: false
 ---
 

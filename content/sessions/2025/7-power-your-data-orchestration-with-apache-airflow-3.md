@@ -7,8 +7,8 @@ block:
 time_start: 2025-06-11T17:30:00.000Z
 time_end: 2025-06-11T19:00:00.000Z
 day: 20251
-timeslot: 6
-gridarea: "7/2/8/6"
+timeslot: 7
+gridarea: "8/2/9/6"
 draft: false
 ---
 
