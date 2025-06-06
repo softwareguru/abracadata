@@ -4,12 +4,13 @@ slug: airflow-3-is-all-you-need
 speakers:
  - Jarek Potiuk
 block: 
-time_start: 2025-06-11T14:35:00.000Z
-time_end: 2025-06-11T15:05:00.000Z
-day: 20251
-timeslot: 3
-gridarea: "3/2/4/6"
-draft: false
+
+time_start: 2025-06-12T14:35:00.000Z
+time_end: 2025-06-12T15:05:00.000Z
+day: 20252
+timeslot: 2
+gridarea: "2/2/3/6"
+
 ---
 
 Do you consider productionizing your machine learning workflows and integrating them with all the data processing pipelines you already have? Does your team struggle with multiple people developing their own ways of running team and your monitoring and SRE guys scratching their head on how to efficiently monitor and run all those loosely connected pieces of logic?
