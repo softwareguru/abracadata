@@ -44,3 +44,11 @@ grid-row: 1;
 	-webkit-line-clamp: 3;
 	-webkit-box-orient: vertical;
   }
+
+
+  .text-color-workshops{
+	color: $primary-color;
+	&:hover{
+		color: $blue;
+	}
+  }

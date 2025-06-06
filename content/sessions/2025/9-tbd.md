@@ -2,7 +2,7 @@
 title: "To be confirmed"
 slug: to-be-confirmed-2
 speakers:
- - Jesús Ramos
+ - Jesus Ramos
 block: 
 time_start: 2025-06-12T14:35:00.000Z
 time_end: 2025-06-12T15:05:00.000Z

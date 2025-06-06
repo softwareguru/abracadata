@@ -54,18 +54,26 @@ speaker = "speakers"
     weight = 3
 
   [[menu.main]]
+    identifier = "program0"
+    name = "Workshops"
+    url = "workshops"
+    parent = "program"
+    weight = 1
+
+
+  [[menu.main]]
     identifier = "program1"
     name = "Sorcerers"
     url = "speakers"
     parent = "program"
-    weight = 1
+    weight = 2
 
   [[menu.main]]
     identifier = "program2"
     name = "Schedule"
     url = "schedule"
     parent = "program"
-    weight = 2
+    weight = 3
 
   #[[menu.main]]
   #  identifier = "sponsor"

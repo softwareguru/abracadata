@@ -9,6 +9,7 @@ time_end: 2025-06-12T17:50:00.000Z
 day: 20252
 timeslot: 5
 gridarea: "5/2/6/6"
+workshop2025: true
 draft: false
 ---
 
