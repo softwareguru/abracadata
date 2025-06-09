@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Informed Financial Assistance for Homelessness Prevention"
-slug: to-be-confirmed-1
+slug: machine-learning-informed-financial-assistance-for-homelessness-prevention
 speakers:
  - Kasun Amarasinghe
 block: 
