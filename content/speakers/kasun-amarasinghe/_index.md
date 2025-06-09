@@ -1,6 +1,6 @@
 ---
 title: "Kasun Amarasinghe"
-designation: "Senior Research Scientist at the Data Science for Social Good Lab at Carnegie Mellon University"
+designation: "Senior Research Scientist at Carnegie Mellon University"
 images:
  - images/speakers/kasun-amarasinghe.png
 twitter: 
