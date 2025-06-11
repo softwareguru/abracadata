@@ -2,6 +2,7 @@
 title: "About AbracaData"
 linkTitle: "About"
 showTitle: false
+description: "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
 ---
 
 <div class="aboutintro d-flex justify-content-between">
