@@ -9,6 +9,8 @@ time_end: 2025-06-11T19:00:00.000Z
 day: 20251
 timeslot: 7
 gridarea: "8/2/9/6"
+slides:
+video: https://youtu.be/yZtHpYmCc7c
 workshop2025: true
 draft: false
 ---

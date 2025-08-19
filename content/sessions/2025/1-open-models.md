@@ -11,6 +11,8 @@ time_end: 2025-06-11T14:30:00.000Z
 day: 20251
 timeslot: 2
 gridarea: "2/2/3/6"
+slides:
+video: https://youtu.be/9YIileQfoWs
 draft: false
 ---
 

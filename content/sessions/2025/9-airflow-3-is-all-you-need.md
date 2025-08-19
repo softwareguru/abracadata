@@ -10,7 +10,8 @@ time_end: 2025-06-12T15:05:00.000Z
 day: 20252
 timeslot: 2
 gridarea: "2/2/3/6"
-
+slides:
+video: https://youtu.be/DPPIkj6xuJo
 ---
 
 Do you consider productionizing your machine learning workflows and integrating them with all the data processing pipelines you already have? Does your team struggle with multiple people developing their own ways of running team and your monitoring and SRE guys scratching their head on how to efficiently monitor and run all those loosely connected pieces of logic?
