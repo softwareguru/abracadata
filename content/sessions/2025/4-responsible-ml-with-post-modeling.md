@@ -9,7 +9,7 @@ time_end: 2025-06-11T16:15:00.000Z
 day: 20251
 timeslot: 4
 gridarea: "5/2/6/6"
-slides:
+slides: 2025/responsible-machine-learning-with-post-modeling.pdf
 video: https://youtu.be/_5P0Un8lJw8
 draft: false
 
