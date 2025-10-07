@@ -6,6 +6,7 @@ images: ["images/blog/registration-2025.png"]
 # author
 redirection: /register
 buttoname: Conjure your access
+draft: true
 ---
 
 

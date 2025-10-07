@@ -5,6 +5,7 @@ showTitle: false
 description: "Abracadata is a global initiative dedicated to showcasing the vital role of data and the experts working behind the scenes to make AI a reality."
 ---
 
+
 <div class="aboutintro d-flex justify-content-between">
 <div class="lead recuadro col-12 col-lg-9">
 <p>As we come to terms with the fact that AI is reaching everywhere, we have to be aware that Data is the fuel of artificial intelligence, and <strong>without data there is no AI magic</strong>.</p>

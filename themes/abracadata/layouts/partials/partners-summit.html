@@ -5,7 +5,7 @@
 
     {{ $category_exists := 0 }}
     <div class="sponsor-strip collaborators">
-      {{range where (where .Site.RegularPages "Section" "partners") ".Params.Space" true }}
+      {{range (where .Site.RegularPages "Section" "partners") }}
         <div class="sponsor-item">
           <a title="{{ .Title }}" href="{{ .Params.webUrl }}" target="_blank">
             <img src="{{ with .Params.images }}{{ index . 0 }}{{ end }}" alt="{{ .Title }}" alt="{{.Title}}">

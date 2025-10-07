@@ -42,8 +42,8 @@ speaker = "speakers"
   #  weight = 1
 
   [[menu.main]]
-   name = "Sorcerers"
-   URL = "speakers"
+   name = "Summit"
+   URL = "summit-2025"
    weight = 2
 
 
@@ -52,10 +52,10 @@ speaker = "speakers"
    URL = "sessions/2025"
    weight = 2
 
-  [[menu.main]]
-   name = "Sponsors"
-   URL = "sponsors"
-   weight = 3
+  #[[menu.main]]
+  # name = "Sponsors"
+  # URL = "sponsors"
+  # weight = 3
 
   #[[menu.main]]
   #  identifier = "program"
@@ -105,11 +105,19 @@ speaker = "speakers"
   #  weight = 2
   #  parent = "sponsor"
 
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 4
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
   weight = 4
+
+############################################################# Summit page #####################################
+
+
 
 
 # Everything below this are Site Params

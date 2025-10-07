@@ -1,6 +1,14 @@
-.hero-section{
+.hero-section-summit{
   background: rgb(28,88,219);
   background: no-repeat url(/images/hero-background.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.hero-section{
+background: #FFE001;
+background: linear-gradient(0deg,rgba(255, 224, 1, 1) 72%, rgba(248, 181, 44, 1) 100%);
   background-size: cover;
   height: 100vh;
   padding-top: 10vh;
@@ -17,11 +25,16 @@
 }
 
 .hero-tagline {
+  color: $primary-color;
+  margin-bottom: 1em;  
+}
+
+.hero-tagline-summit {
   color: $orange;
   margin-bottom: 1em;  
 }
 
-.hero-grid{
+.hero-grid-summit{
   display: grid;
   height: 90vh;
   grid-template-columns: 1fr;
@@ -33,6 +46,17 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+}
+
+.hero-grid{
+  display: grid;
+  height: 90vh;
+  margin-top: 100px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 48% 20% 25%;
+  grid-column-gap: 0px;
+  justify-items: center;
+  align-items: center;
 }
 
 

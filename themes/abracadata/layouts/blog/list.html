@@ -1,21 +1,25 @@
 {{ define "main" }}
+<section class="section blog">
+    <div class="container">
+        <div class="card mb-3 border border-0">
+            {{ range first 3 (where .Site.RegularPages "Type" "blog" )}}
+            <br>
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="{{ .Permalink }}">
+                        <img src="{{ with .Params.images }}{{ index . 0 | relURL }}{{ end }}" class="img-fluid" alt="{{ .Title | markdownify }}">
+                    </a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h3 class="card-title" style="text-align: center;"><a href="{{ .Permalink }}"><strong>{{ .Title | markdownify }}</strong></a></h3>
+                        <p class="card-text" style="color: black;"> {{ .Summary | truncate 300 }}</p>
 
-<section class="section {{ .Type }}">
-  <div class="container">
-    <div class="list-content">
-      {{ .Content }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
     </div>
-
-    <div class="row">
-      {{ range .Data.Pages }}
-      <div class="col-sm-4 ">
-        {{ .Render "post" }}
-      </div>
-      {{ end }}
-      
-    </div>
-
-  </div>
 </section>
-
 {{ end }}

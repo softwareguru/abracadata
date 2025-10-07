@@ -4,6 +4,7 @@ level: "collaborators"
 images: 
  - "/images/partners/clowder.png"
 webUrl: "https://clowder.space"
+space: true
 weight: 8
 ---
 
